@@ -21,7 +21,8 @@ as those in /etc/skel, which are placed in regular
 users' home directories.
 
 %prep
-%setup -q -n %{name}-%{version}
+
+%build
 
 %install
 mkdir -p $RPM_BUILD_ROOT/root
