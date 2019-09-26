@@ -41,5 +41,5 @@ done
 
 %files
 %defattr(-,root,root,-)
-%config(noreplace) /root/.[A-Za-z]*
+%config /root/.[A-Za-z]*
 
